@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+
+<LineChart fx:id="lineGraph" legendVisible="false" title="Linijinis Grafikas" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphs.LineGraphController">
+  <xAxis>
+    <NumberAxis label="Periodas (mėn)" minorTickCount="1" side="BOTTOM" />
+  </xAxis>
+  <yAxis>
+    <NumberAxis label="Paskolos likutis" minorTickCount="10" side="LEFT" tickUnit="10.0" />
+  </yAxis>
+</LineChart>
